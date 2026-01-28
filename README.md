@@ -11,12 +11,14 @@ uv init .
 
 
 
-### RUFF
-# Check for errors and code smells
+# RUFF
+A nice tool to be used for code formatting
+
+## Check for errors and code smells
 uv run ruff check .
 
-# Automatically fix what can be fixed (like unused imports)
+## Automatically fix what can be fixed (like unused imports)
 uv run ruff check --fix .
 
-# Format your code (like Black)
+## Format your code (like Black)
 uv run ruff format .
