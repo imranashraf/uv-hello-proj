@@ -1,12 +1,15 @@
-# install uv
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# UV
+uv is a recent answer to managing envrionments for python based developments. Claims to be fast and less space hungry.
 
-Exit and open a new tab/window
+## Install uv
+    curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# setup a project
-mkdir myproj
-cd myproj
-uv init .
+Exit and open a new tab/window to have uv in path
+
+## setup a project
+    mkdir myproj
+    cd myproj
+    uv init .
 
 
 
