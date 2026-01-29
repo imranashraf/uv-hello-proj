@@ -33,4 +33,6 @@ An extremely fast Python linter and code formatter, written in Rust.
     uv run ruff check --fix .
 
 ## Format your code (like Black)
-   uv run ruff format .
+    uv run ruff format .
+
+
